@@ -14,6 +14,7 @@
 - Python
 - LangChain
 - Groq API
+- OpenAI API(also)
 - Wikipedia API
 
 ## Installation
