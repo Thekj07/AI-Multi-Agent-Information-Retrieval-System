@@ -1,2 +1,40 @@
-# AI-Multi-Agent-Information-Retrieval-System
-Developed a multi-agent AI application using Python and LangChain that processes user queries and retrieves relevant information from external knowledge sources. Implemented Planner, Researcher, Writer, and Evaluator agents with safety filtering and an iterative feedback loop to generate accurate, structured responses.
+# AI Multi-Agent Information Retrieval System
+
+## Features
+
+- Planner Agent
+- Research Agent
+- Writer Agent
+- Evaluator Agent
+- Wikipedia Integration
+- Safety Filter
+
+## Tech Stack
+
+- Python
+- LangChain
+- Groq API
+- Wikipedia API
+
+## Installation
+
+pip install -r requirements.txt
+
+## Set API Key
+
+Create a .env file
+
+GROQ_API_KEY=YOUR_KEY
+
+## Run
+
+python app.py
+
+## Example
+
+Enter Topic:
+India
+
+Output:
+- India is located in South Asia.
+- ...
